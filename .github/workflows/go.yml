@@ -28,4 +28,4 @@ jobs:
       run: go test -v ./...
 
     - name: run
-      run: go run main
+      run: go run cmd/main.go
