@@ -43,4 +43,5 @@ jobs:
           --query 'Functions[*].[FunctionName]' \
           --output text | grep psykel)
         echo $FUNCTION_NAME
+        go build -o out/fpl-form -v cmd/main.go
 
